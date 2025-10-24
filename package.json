@@ -1,0 +1,13 @@
+{
+  "name": "render-node-server",
+  "version": "1.0.0",
+  "description": "Servidor Node.js para Render con límite de usuarios y soporte futuro para sesiones",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3"
+  }
+}
